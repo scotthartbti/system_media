@@ -3,7 +3,9 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := \
-	radio_metadata.c
+	radio_metadata.c \
+        RadioMetadataWrapper.cpp
+
 
 LOCAL_C_INCLUDES:= \
 	system/media/radio/include \
